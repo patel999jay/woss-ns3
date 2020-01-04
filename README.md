@@ -102,18 +102,18 @@ Please use this command to run the example.
 
     ./waf --run src/woss-ns3/examples/woss-aloha-example
     Waf: Entering directory `/home/jay/Documents/dev/workspace/ns-allinone-3.30/ns-3.30/build'
-[2572/2848] Linking build/src/woss-ns3/examples/ns3.30-woss-aloha-example-debug
-Waf: Leaving directory `/home/jay/Documents/dev/workspace/ns-allinone-3.30/ns-3.30/build'
-Build commands will be stored in build/compile_commands.json
-'build' finished successfully (1.990s)
-WossManagerResDbMT::checkConcurrentThreads() 24
-WossManagerResDbMT::checkConcurrentThreads() 4
-Received a packet of size 1000 bytes
-Received a total of 1000 bytes at sink
+    [2572/2848] Linking build/src/woss-ns3/examples/ns3.30-woss-aloha-example-debug
+    Waf: Leaving directory `/home/jay/Documents/dev/workspace/ns-allinone-3.30/ns-3.30/build'
+    Build commands will be stored in build/compile_commands.json
+    'build' finished successfully (1.990s)
+    WossManagerResDbMT::checkConcurrentThreads() 24
+    WossManagerResDbMT::checkConcurrentThreads() 4
+    Received a packet of size 1000 bytes
+    Received a total of 1000 bytes at sink'
 
 
 
-*APPENDIX A : VIDEO DESCRIPTION*
+##### APPENDIX A : VIDEO DESCRIPTION
 
 == Building NetCDF with HDF5, use GNU Compiler ==
 *Download NetCDF,zlib,hdf5,WOSS,GETCO everything in same folder(Recommanded).*
@@ -142,7 +142,7 @@ Received a total of 1000 bytes at sink
     ./configure --prefix=$fld_install; make clean; make all install
 
 3. export variables to .bashrc
-#NETCDF
+##### NETCDF
 
     export NETCDF=/home/nam/apps/netcdf
     export PATH=$NETCDF/bin:$PATH
@@ -151,7 +151,7 @@ Received a total of 1000 bytes at sink
     export LD_LIBRARY_PATH=$NETCDF/lib:$LD_LIBRARY_PATH
     export PATH NETCDF
 
-*Installation of netCDF cxx module:
+##### Installation of netCDF cxx module:
 
     ./configure --prefix=/usr/local/netcdf4 --enable-shared CPPFLAGS="$CPPFLAGS -I/usr/local/netcdf4/include" LDFLAGS="$LDFLAGS -L/usr/local/netcdf4/lib"
 
